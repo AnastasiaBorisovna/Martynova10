@@ -34,8 +34,8 @@ class RadioTest {
     @Test
     public void setCurrentStationWithinTheSetValues() {
         Radio rad = new Radio();
-        rad.setCurrentStation(5);
-        int expected = 5;
+        rad.setCurrentStation(4);
+        int expected = 4;
         int actual = rad.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
